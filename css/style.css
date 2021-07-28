@@ -1,0 +1,70 @@
+@font-face {
+  font-family: project;
+  src: url("../fonts/charter-regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: project;
+  src: url("../fonts/charter-italic.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: project;
+  src: url("../fonts/charter-bold.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: project;
+  src: url("../fonts/charter-bold-italic.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+:root {
+  --white: #fffffe;
+  --grey: #a5a3a5;
+  --blue: #251f24;
+}
+
+body {
+  background-color: var(--blue);
+  color: var(--white);
+  font-family: project;
+}
+
+a {
+  background-color: var(--blue);
+}
+
+header {
+  font-size: 14px;
+  color: var(--grey);
+}
+
+header a {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--blue);
+}
+
+nav details summary {
+  color: var(--white);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
